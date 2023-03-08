@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 
 func main() {
-	fmt.Println("hello world")
-	fmt.Println("hello Joe")
-	fmt.Println("I worship his shadow")
+	fmt.Println("Hello World!")
+	fmt.Println("Your random number is", rand.Intn(999))
+	fmt.Println("The time is", time.Now())
 }
